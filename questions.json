@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "canadian"
+    ],
+    "label": "Nationality",
+    "explain": "Người nói xác nhận cô ấy là người Canada. Chi tiết mẹ cô ấy là người Anh chỉ là thông tin gây nhiễu.",
+    "cue": "No, I’m actually Canadian.",
+    "trap": "British (quốc tịch của mẹ)",
+    "skill": "Distractor"
+  },
+  {
+    "id": 2,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "furniture"
+    ],
+    "label": "Reason for visit: business (to buy antique ___)",
+    "explain": "Cô ấy là nhà thiết kế nội thất và sang Anh để mua đồ nội thất cũ/đồ cổ. Sau “antique” cần danh từ “furniture”.",
+    "cue": "buy old furniture, antiques",
+    "trap": "antiques đã xuất hiện ngay sau đó nhưng không khớp cấu trúc chỗ trống",
+    "skill": "Form completion"
+  },
+  {
+    "id": 3,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "park"
+    ],
+    "label": "Current address: ___ Apartments (No 15)",
+    "explain": "Địa chỉ hiện tại là Park Apartments. Riverside Apartments là nơi ở trước đó.",
+    "cue": "at present ... Park Apartments",
+    "trap": "Riverside Apartments",
+    "skill": "Correction signal"
+  },
+  {
+    "id": 4,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "250",
+      "250 sterling",
+      "£250"
+    ],
+    "label": "Wallet containing approximately £ ___",
+    "explain": "Cô ấy rút £300 nhưng đã tiêu khoảng £50, nên số tiền còn trong ví khoảng £250.",
+    "cue": "about £250 sterling",
+    "trap": "£300 và £50",
+    "skill": "Numbers"
+  },
+  {
+    "id": 5,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "phone",
+      "mobile phone"
+    ],
+    "label": "Second item stolen: a ___",
+    "explain": "Sau khi phát hiện ví mất, cô ấy nhận ra điện thoại cũng đã biến mất. Chìa khóa xe không bị lấy.",
+    "cue": "my phone had gone as well",
+    "trap": "keys",
+    "skill": "Detail"
+  },
+  {
+    "id": 6,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "10 september",
+      "10th september",
+      "september 10",
+      "september 10th",
+      "10/09",
+      "10-09"
+    ],
+    "label": "Date of theft",
+    "explain": "Vụ trộm xảy ra “yesterday”; nhân viên xác nhận ngày đó là 10 September.",
+    "cue": "So that was September the tenth.",
+    "trap": "Ngày sinh 14 December 1977",
+    "skill": "Date"
+  },
+  {
+    "id": 7,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "museum"
+    ],
+    "label": "Location outside the ___ at about 4 pm",
+    "explain": "Địa điểm có khả năng xảy ra vụ trộm là bên ngoài bảo tàng, khoảng 4 giờ chiều.",
+    "cue": "outside the museum",
+    "trap": "supermarket là nơi cô ấy phát hiện mất đồ",
+    "skill": "Location"
+  },
+  {
+    "id": 8,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "time"
+    ],
+    "label": "Some boys asked for the ___ then ran off",
+    "explain": "Nhóm thiếu niên tiếp cận bằng cách hỏi giờ, tạo cơ hội gây xao nhãng.",
+    "cue": "asked for the time",
+    "trap": "directions / money",
+    "skill": "Specific word"
+  },
+  {
+    "id": 9,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "blond",
+      "blonde"
+    ],
+    "label": "About 12, slim build with ___ hair",
+    "explain": "Đặc điểm nhận dạng là tóc vàng. Cả “blond” và “blonde” đều được chấp nhận.",
+    "cue": "blond hair",
+    "trap": "tiger là hình trên áo, không phải màu tóc",
+    "skill": "Spelling variant"
+  },
+  {
+    "id": 10,
+    "section": 1,
+    "type": "text",
+    "answer": [
+      "8795482361",
+      "87954 82361",
+      "87954-82361"
+    ],
+    "label": "Crime reference number",
+    "explain": "Mã hồ sơ gồm hai cụm số 87954 và 82361. App bỏ qua khoảng trắng và dấu gạch khi chấm.",
+    "cue": "87954 82361",
+    "trap": "Các số tiền và số căn hộ xuất hiện trước đó",
+    "skill": "Long number"
+  },
+  {
+    "id": 11,
+    "section": 2,
+    "type": "pair",
+    "group": "advice",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "label": "Advice for the first week — choice 1",
+    "explain": "Quản lý khuyên người học chủ động làm quen, nói chuyện với nhiều đồng nghiệp và hỏi khi chưa chắc phải làm gì.",
+    "cue": "talk to as many people as possible; check with someone",
+    "trap": "Không nói rằng phải học từ mọi lỗi hay luôn phản ứng tích cực với feedback",
+    "skill": "Multiple choice"
+  },
+  {
+    "id": 12,
+    "section": 2,
+    "type": "pair",
+    "group": "advice",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "label": "Advice for the first week — choice 2",
+    "explain": "Hai đáp án đúng là A và C, có thể chọn theo bất kỳ thứ tự nào.",
+    "cue": "get to know colleagues; ask lots of questions",
+    "trap": "Các ý B, D, E nghe hợp lý nhưng không được nêu như lời khuyên cụ thể",
+    "skill": "Multiple choice"
+  },
+  {
+    "id": 13,
+    "section": 2,
+    "type": "pair",
+    "group": "mentor",
+    "answer": [
+      "B",
+      "E"
+    ],
+    "label": "What mentors can help with — choice 1",
+    "explain": "Mentor theo dõi mục tiêu đã đạt, chỉ ra điểm cần cải thiện và trao đổi tham vọng dài hạn.",
+    "cue": "goals achieved; areas for improvement; long-term ambitions",
+    "trap": "Mentor không làm bài thay và không lập thời khóa biểu tuần",
+    "skill": "Paraphrase"
+  },
+  {
+    "id": 14,
+    "section": 2,
+    "type": "pair",
+    "group": "mentor",
+    "answer": [
+      "B",
+      "E"
+    ],
+    "label": "What mentors can help with — choice 2",
+    "explain": "“Long-term ambitions” tương ứng với career plans; “goals achieved so far” tương ứng với reviewing progress.",
+    "cue": "career plans + reviewing progress",
+    "trap": "completing difficult tasks",
+    "skill": "Paraphrase"
+  },
+  {
+    "id": 15,
+    "section": 2,
+    "type": "choice",
+    "answer": [
+      "B"
+    ],
+    "label": "Using the internet",
+    "explain": "Được dùng Internet cho nghiên cứu phục vụ công việc, nhưng không dùng cho mục đích cá nhân → có hạn chế.",
+    "cue": "unlimited access for that; don’t use it for personal use",
+    "trap": "Nghe “unlimited access” rồi chọn encouraged",
+    "skill": "Qualification"
+  },
+  {
+    "id": 16,
+    "section": 2,
+    "type": "choice",
+    "answer": [
+      "B"
+    ],
+    "label": "Flexible working",
+    "explain": "Chỉ một số người đủ điều kiện sau 3 tháng và còn tùy phòng ban, hoàn cảnh cá nhân → có hạn chế.",
+    "cue": "some of you ... eligible; depend on ...",
+    "trap": "Không phải ai cũng tự động được phép",
+    "skill": "Conditional language"
+  },
+  {
+    "id": 17,
+    "section": 2,
+    "type": "choice",
+    "answer": [
+      "C"
+    ],
+    "label": "Booking holidays",
+    "explain": "Ngoài ngày nghỉ lễ theo luật, học viên không được đặt kỳ nghỉ cho tới khi kết thúc chương trình 6 tháng.",
+    "cue": "don’t book any holidays until after ... finished",
+    "trap": "Time off khi bị ốm không phải holiday booking",
+    "skill": "Prohibition"
+  },
+  {
+    "id": 18,
+    "section": 2,
+    "type": "choice",
+    "answer": [
+      "A"
+    ],
+    "label": "Working overtime",
+    "explain": "Không bắt buộc nhưng công ty khuyên nên nhận làm thêm nếu có thể vì đó là trải nghiệm có giá trị.",
+    "cue": "we advise you to take it up if possible",
+    "trap": "“not required” không có nghĩa là bị hạn chế",
+    "skill": "Attitude"
+  },
+  {
+    "id": 19,
+    "section": 2,
+    "type": "choice",
+    "answer": [
+      "A"
+    ],
+    "label": "Wearing trainers",
+    "explain": "Giày thoải mái như trainers được nói là lựa chọn thích hợp hơn.",
+    "cue": "trainers are preferable",
+    "trap": "Chỉ high heels bị hạn chế",
+    "skill": "Attitude"
+  },
+  {
+    "id": 20,
+    "section": 2,
+    "type": "choice",
+    "answer": [
+      "C"
+    ],
+    "label": "Bringing food to work",
+    "explain": "Công ty áp dụng chính sách “no packed lunch”, vì vậy mang đồ ăn trưa từ nhà là trái quy định.",
+    "cue": "introduce a no packed lunch policy",
+    "trap": "Canteen rẻ và có snacks không có nghĩa được mang đồ ăn vào",
+    "skill": "Policy language"
+  },
+  {
+    "id": 21,
+    "section": 3,
+    "type": "choice",
+    "answer": [
+      "B"
+    ],
+    "label": "Carla and Rob were surprised to learn that coastal cities…",
+    "explain": "Họ ngạc nhiên vì phần lớn các thành phố lớn nhất thế giới được xây ven biển.",
+    "cue": "most of the biggest cities ... built by the sea",
+    "trap": "Hơn nửa dân số sống ở tất cả thành phố, không riêng coastal cities",
+    "skill": "Distractor"
+  },
+  {
+    "id": 22,
+    "section": 3,
+    "type": "choice",
+    "answer": [
+      "A"
+    ],
+    "label": "Building coastal cities near rivers…",
+    "explain": "Chất ô nhiễm từ nông nghiệp và công nghiệp theo sông chảy xuống các thành phố ven biển.",
+    "cue": "pollutants ... brought downstream to the cities",
+    "trap": "Đất nông nghiệp dịch chuyển nhưng ý chính là ô nhiễm tới thành phố",
+    "skill": "Cause-effect"
+  },
+  {
+    "id": 23,
+    "section": 3,
+    "type": "choice",
+    "answer": [
+      "C"
+    ],
+    "label": "Mistake in Miami drainage channels",
+    "explain": "Thiết kế thập niên 1950 không tính tới nóng lên toàn cầu và mực nước biển dâng.",
+    "cue": "didn’t take into account global warming",
+    "trap": "Không phải thiếu số lượng hay sai vật liệu",
+    "skill": "Paraphrase"
+  },
+  {
+    "id": 24,
+    "section": 3,
+    "type": "choice",
+    "answer": [
+      "B"
+    ],
+    "label": "What Miami authorities should do immediately",
+    "explain": "Giải pháp trước mắt là tìm kinh phí thay thế hệ thống kênh thoát nước để chống ngập ngay.",
+    "cue": "find the money ... replace the drainage channels",
+    "trap": "Khôi phục hệ sinh thái là giải pháp dài hạn",
+    "skill": "Time reference"
+  },
+  {
+    "id": 25,
+    "section": 3,
+    "type": "choice",
+    "answer": [
+      "A"
+    ],
+    "label": "Priority for international action",
+    "explain": "Các thành phố/quốc gia cần hành động phối hợp ở cấp quốc tế thay vì làm riêng lẻ.",
+    "cue": "start acting together at an international level",
+    "trap": "Thống nhất nguyên tắc chung được nói là sẽ mất rất lâu",
+    "skill": "Main idea"
+  },
+  {
+    "id": 26,
+    "section": 3,
+    "type": "match",
+    "answer": [
+      "B"
+    ],
+    "label": "Historical background",
+    "explain": "Họ quyết định phần lịch sử chỉ trình bày ngắn vì người nghe đã biết một phần.",
+    "cue": "don’t want to spend too long on that",
+    "trap": "Không cần handout",
+    "skill": "Decision"
+  },
+  {
+    "id": 27,
+    "section": 3,
+    "type": "match",
+    "answer": [
+      "A"
+    ],
+    "label": "Geographical factors",
+    "explain": "Họ sẽ dùng bản đồ/slides để đánh dấu wetlands, estuaries và coastal erosion.",
+    "cue": "maps ... or some slides everyone can see",
+    "trap": "Handout được đề xuất rồi đổi sang slides",
+    "skill": "Correction signal"
+  },
+  {
+    "id": 28,
+    "section": 3,
+    "type": "match",
+    "answer": [
+      "F"
+    ],
+    "label": "Past mistakes",
+    "explain": "Case study New Orleans được dùng làm nền tảng cho phần nói về sai lầm trong quá khứ.",
+    "cue": "use that as the basis for that part",
+    "trap": "Không cần nhiều ví dụ",
+    "skill": "Example selection"
+  },
+  {
+    "id": 29,
+    "section": 3,
+    "type": "match",
+    "answer": [
+      "G"
+    ],
+    "label": "Future risks",
+    "explain": "Cả hai thiếu dữ liệu nên quyết định tìm thêm thông tin trên website.",
+    "cue": "need to look at some websites",
+    "trap": "Không phải kiểm tra lại độ chính xác của dữ liệu sẵn có",
+    "skill": "Next action"
+  },
+  {
+    "id": 30,
+    "section": 3,
+    "type": "match",
+    "answer": [
+      "C"
+    ],
+    "label": "International implications",
+    "explain": "Họ dự định hỏi những người trong khán giả đến từ nhiều nơi khác nhau.",
+    "cue": "ask people in the audience",
+    "trap": "Chỉ thực hiện nếu còn thời gian, nhưng vẫn là quyết định được chọn",
+    "skill": "Audience involvement"
+  },
+  {
+    "id": 31,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "industry"
+    ],
+    "label": "Growth in population and ___",
+    "explain": "Nhu cầu năng lượng tăng do dân số tăng và ngành công nghiệp mở rộng.",
+    "cue": "increasing population and expanding industry",
+    "trap": "economy / technology",
+    "skill": "Collocation"
+  },
+  {
+    "id": 32,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "constant"
+    ],
+    "label": "Waves provide a ___ source of renewable energy",
+    "explain": "Nguồn sóng được mô tả là liên tục, không có nguy cơ dừng hẳn.",
+    "cue": "the source is constant",
+    "trap": "renewable đã có sẵn trong câu hỏi",
+    "skill": "Exact word"
+  },
+  {
+    "id": 33,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "direction"
+    ],
+    "label": "Waves can move in any ___",
+    "explain": "Gió làm sóng di chuyển theo mọi hướng, gây khó cho công nghệ khai thác.",
+    "cue": "travel in every direction",
+    "trap": "line / way",
+    "skill": "Synonym match"
+  },
+  {
+    "id": 34,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "floor"
+    ],
+    "label": "Movement of sand on the ___ of the ocean",
+    "explain": "Cát và trầm tích trên đáy đại dương có thể không còn di chuyển bình thường.",
+    "cue": "on the ocean floor",
+    "trap": "surface",
+    "skill": "Preposition phrase"
+  },
+  {
+    "id": 35,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "predictable"
+    ],
+    "label": "Tides are more ___ than waves",
+    "explain": "Thời điểm thủy triều cao/thấp có thể biết chính xác trước nhiều năm nên thủy triều dễ dự đoán hơn.",
+    "cue": "it’s predictable",
+    "trap": "regular có nghĩa gần đúng nhưng không phải từ được nghe",
+    "skill": "Comparison"
+  },
+  {
+    "id": 36,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "bay"
+    ],
+    "label": "Lagoon will be created in a ___ at Swansea",
+    "explain": "Khu đầm thủy triều nằm trong một vịnh ở Swansea và được che bởi đê chắn hình chữ U.",
+    "cue": "within a bay at Swansea",
+    "trap": "coast / lagoon",
+    "skill": "Location noun"
+  },
+  {
+    "id": 37,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "gates"
+    ],
+    "label": "Stored water is released through ___",
+    "explain": "Các cổng trong đê chắn được mở để nước dự trữ chảy ra và quay turbine theo chiều ngược lại.",
+    "cue": "gates in the breakwater are opened",
+    "trap": "turbines",
+    "skill": "Process sequence"
+  },
+  {
+    "id": 38,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "fuel"
+    ],
+    "label": "No ___ is required to make it work",
+    "explain": "Turbine vận hành mà không cần nhiên liệu, nên không tạo khí thải nhà kính trong quá trình hoạt động.",
+    "cue": "without the need for fuel",
+    "trap": "weather đã xuất hiện ở dòng trước",
+    "skill": "Negative form"
+  },
+  {
+    "id": 39,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "jobs"
+    ],
+    "label": "Likely to create a number of ___",
+    "explain": "Việc sản xuất linh kiện được ước tính tạo hơn 2.000 việc làm cho kinh tế địa phương.",
+    "cue": "create more than 2,000 jobs",
+    "trap": "homes là số hộ được cấp điện",
+    "skill": "Plural noun"
+  },
+  {
+    "id": 40,
+    "section": 4,
+    "type": "text",
+    "answer": [
+      "migration"
+    ],
+    "label": "May harm fish and birds by affecting ___",
+    "explain": "Đầm thủy triều có thể làm xáo trộn các mô hình di cư và gây tích tụ bùn.",
+    "cue": "disturbing migration patterns",
+    "trap": "ecosystems là hệ quả rộng hơn, không khớp chỗ trống",
+    "skill": "Word family"
+  }
+]
